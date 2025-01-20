@@ -46,7 +46,7 @@ SELECT COUNT(`id`) FROM `departments`;
 
 SELECT COUNT(`id`)
 FROM `teachers`
-WHERE `phone` IS NOT NULL 
+WHERE `phone` IS NULL 
 ;
 
 
